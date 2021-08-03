@@ -1,0 +1,7 @@
+lazy loading CHECK
+responsive 
+edit logos
+downsize font on endcard and logos
+next and prev images CHECK
+remove nav on image CHECK
+wait for animation to end to allow scroll CHECK
