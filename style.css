@@ -1154,7 +1154,7 @@ body {
     position: absolute;
     left: 50%;
     top: 15vh;
-    width: 100%;
+    width: 100vw;
     height: 1px;
     background-color: white;
     transform: translateX(-50%) scaleX(0%);
