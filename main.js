@@ -124,7 +124,7 @@ VanillaTilt.init(document.querySelectorAll(".icon"), {
 //Intersection observers Section 2
 
 const appearOptions = {
-    threshold: .95
+    threshold: .5
 };
 
 const section2 = document.querySelector('.cont-lg');
@@ -236,7 +236,7 @@ const observer4 = new IntersectionObserver((entries, observer4) => {
             observer4.unobserve(entry.target);
         }
     })
-})
+}, appearOptions)
 
 observer4.observe(section4);
 
