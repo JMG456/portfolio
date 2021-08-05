@@ -1152,17 +1152,16 @@ body {
 
 .projects .empty {
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 15vh;
-    width: 100vw;
+    width: 0;
     height: 1px;
     background-color: white;
-    transform: translateX(-50%) scaleX(0%);
-    transition: transform ease .5s .7s;
+    transition: width ease .5s .7s;
 }
 
 .projects .empty-scale {
-    transform: translateX(-50%) scaleX(100%);
+    width: 100%;
 }
 
 .project-grid {
